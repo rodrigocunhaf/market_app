@@ -1,0 +1,25 @@
+{
+  "name": "market_app",
+  "version": "1.0.0",
+  "description": "market api",
+  "main": "index.js",
+  "scripts": {
+    "dev": "set NODE_ENV=development&& nodemon src/app.js",
+    "test": "set NODE_ENV=testing&& nodemon src/app.js"
+  },
+  "repository": "https://github.com/rodrigocunhaf/market_app.git",
+  "author": "Rodrigo Cunha França <rodrigocunhaf@github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "kill-port": "^1.6.1",
+    "mongoose": "^6.2.4",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
