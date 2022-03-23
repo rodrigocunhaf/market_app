@@ -4,7 +4,7 @@
   "description": "market api",
   "main": "index.js",
   "scripts": {
-    "start": "node ./src/app.js",
+    "start": " set NODE_ENV='production'&& node ./src/app.js",
     "dev": "set NODE_ENV=development&& nodemon src/app.js",
     "test": "set NODE_ENV=testing&& nodemon src/app.js"
   },
